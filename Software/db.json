@@ -1,0 +1,11 @@
+{"_default": 
+    {"2": 
+        {
+            "type": "secretkey", "key": "MOJPRIVATNIKLJUC"
+        }, 
+    "3": 
+        {
+            "type": "worklist", "WORK": []
+        }
+    }
+}
