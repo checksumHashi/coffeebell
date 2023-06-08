@@ -175,4 +175,4 @@ if __name__=='__main__':
     payload = db.get(q.type == 'worklist').get('WORK')
     bell_relay_Switcher_THREAD.start()
     lcd_interface_THREAD.start()
-    app.run('0.0.0.0', port=80)
+    app.run('0.0.0.0', port=8080)
