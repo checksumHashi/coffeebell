@@ -1,4 +1,5 @@
 #!/bin/bash
+#test
 
 yes | sudo apt update
 yes | sudo apt full-upgrade
