@@ -1,0 +1,13 @@
+[Unit]
+Description=CoffeeBell SysD Service
+After=network.target
+
+[Service]
+User=lex
+Group=www-data
+WorkingDirectory=/srv/coffeebell/Software/
+Environment="PATH=/srv/coffeebell/Software/coffeebell/bin"
+ExecStart=/srv/coffeebell/Software/venv-coffee/bin/gunicorn --config gunicorn.py wsgi:app
+
+[Install]
+WantedBy=multi-user.target
