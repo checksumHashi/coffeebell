@@ -15,7 +15,7 @@ import I2C_LCD_driver
 #### the secret key for changing ring times
 ##################################################
 #/home/tszvono/school-bell-web-sys-V2
-db = TinyDB('/home/tszvono/school-bell-web-sys-V2/db.json')
+db = TinyDB('/srv/coffeebell/Software/db.json')
 q = Query()
 secretkey = db.get(q.type == 'secretkey').get('key')
 
@@ -172,7 +172,7 @@ def timechange():
 #### and start both of the threads for ringing the bell and interfacing with the lcd
 #####################################################################################
 if __name__=='__main__':
-    payload = db.get(q.type == 'worklist').get('WORK')
+    #payload = db.get(q.type == 'worklist').get('WORK')
     #bell_relay_Switcher_THREAD.start()
     #lcd_interface_THREAD.start()
-    app.run('0.0.0.0', port=8080)
+    app.run(host='127.0.0.1', port=8080, debug=True)
