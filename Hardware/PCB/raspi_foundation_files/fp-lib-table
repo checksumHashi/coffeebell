@@ -1,5 +1,0 @@
-(fp_lib_table
-  (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/CM4IO.pretty")(options "")(descr ""))
-  (lib (name "UJ31-CH-G2-SMT-TR")(type "KiCad")(uri "C:/repos/llamabell/PCB/Libraries/UJ31-CH-G2-SMT-TR.pretty")(options "")(descr ""))
-  (lib (name "2023-01-23_12-31-06")(type "KiCad")(uri "C:/repos/llamabell/PCB/Libraries/2023-01-23_12-31-06.pretty")(options "")(descr ""))
-)

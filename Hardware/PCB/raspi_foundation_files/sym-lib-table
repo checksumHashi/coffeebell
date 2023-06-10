@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/CM4IO.kicad_sym")(options "")(descr ""))
-  (lib (name "2023-01-23_12-31-06")(type "Legacy")(uri "C:/repos/llamabell/PCB/Libraries/2023-01-23_12-31-06.lib")(options "")(descr ""))
-)
