@@ -1,0 +1,2 @@
+# rename user in coffeebell.service to a user that will be used in production
+# fix first_time_setup.sh to copy correctly service and config files
